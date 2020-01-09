@@ -1,0 +1,19 @@
+= Toelichting
+
+In deze toelichting staat uitleg over de verschillende link:../checklist/checklist.adoc[checklist items] van de jAPK
+
+link:1-Aan_de_slag.adoc[]: De kortste weg: meteen aan de slag
+
+link:2-Architectuur.adoc[]: De applicatie op PowerPoint-niveau, in samenhang met zijn omgeving. Complexiteit verhogende factoren, zoals extern opgelegde richtlijnen, lastige protocollen en platform-eigenaardigheden. Fundamentele fouten en structureel terugkerende aandachtspunten.
+
+link:3-Documentatie.adoc[]: Alle documentatie rondom de applicatie. De functionele beschrijving, het technische ontwerp, de testen en projectdocumentatie, maar ook hoe de applicatie zich aan de organisatie presenteert. Is de documentatie te vinden (liefst onder versiebeheer) en is deze te begrijpen. Kortom: alles wat nodig is om wegwijs te worden in de applicatie.
+
+link:4-Metrics.adoc[]: De resultaten van geautomatiseerde codeanalyses, met welke tools er maar voorhanden zijn. Het voordeel van deze tools is dat je snel en makkelijk resultaten krijgt. Zelfs zonder dat je de code inhoudelijk kent, kun je hiermee de eerste uitschieters al aanwijzen en de aandachtsgebieden voor handmatige analyse bepalen.
+
+link:5-Code_review.adoc[]: De hands-on analyse van de code. Een inventarisatie van problemen die je (of je opvolgers) kunt tegenkomen als je de code wilt beheren
+
+link:6-Beveiliging.adoc[]: Deze categorie adresseert in vogelvlucht een aantal potentiële beveiligingsissues: Zichtbaarheid van gebruikers- en applicatiewachtwoorden en een aantal varianten van code insertion. Infrastructurele beveiliging zit niet in de jAPK, omdat dat meestal buiten het ontwikkelteam wordt opgelost. Indien gewenst kun je dit natuurlijk altijd toevoegen.
+
+link:7-Achterstallig_onderhoud.adoc[]: Bekende problemen, lelijke pukkels en stukken code die door de tand des tijds zijn ingehaald. Een inventarisatie van alle punten die eigenlijk ook nog eens gedaan hadden moeten worden.
+
+link:8-Tooling_en_infrastructuur.adoc[]: Alle ondersteunende tools: ontwikkelomgeving, versiebeheersysteem, build, test- en deployment tools, maar ook installatiescripts en inrichting van de server waar de applicatie op draait. Sluiten de gebruikte tools goed aan op elkaar en past het gebruik ervan binnen de rest van de organisatie.
